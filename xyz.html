@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Form</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body class="background">
+
+    <div class="div1">
+
+        <div>
+            <img class="img" src="istockphoto-1017553746-612x612.jpg" alt="Error"></img>
+            <h2>Name: ALTHAF SHAIK</h2>
+            <h2>Email: alsh@odoo.com</h2>
+            <h2>Mobile No:7032861982</h2>
+            <h2>Adress: Ongole Town,Andhra Pradesh</h2>
+        </div>
+        <hr id="horizontal" >
+        <br>
+
+
+        <div class="div2">
+            
+            <h2>Skills:</h2>
+            <hr>
+            <p><b>I have mentioned my skills below for the role of software developer Intern in Odoo</b></p>
+            <p>
+            <dl>
+                <dt><b>Python:</b>
+                <dd>This is one of the leading and trendng programming language.</dd>
+                </dt><br>
+                <dt><b>JavaScript:</b>
+                <dd>This language is used to make wesites static to dynamic.</dd>
+                </dt><br>
+                <dt><b>SQL:</b>
+                <dd>This is used to insert or manupulate the database.</dd>
+                </dt><br>
+            </dl>
+            </p>
+        </div>
+        <br>
+
+
+        <div class=" div2 div3">
+            <form class="Forms" autocomplete="on">
+                <table>
+                    <h2>
+                        Form:
+                    </h2>
+                    <hr>
+                    <tr>
+                        <td>
+                            <label for="fname">Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Enter Your Name" id="fname">
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>
+                            <label for="number">Mobile Number:</label>
+                        </td>
+                        <td>
+                            <input type="number" placeholder="Enter your number" id="number"><br>
+                        </td>
+                    </tr>
+                    <tr></tr>
+
+                    <tr>
+                        <td>
+                            <label for="email">Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" placeholder="Enter Your Email" id="email"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Gender</label>
+                        </td>
+                        <td>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Hobies</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="cricket">
+                            <label for="cricket">Cricket</label>
+                            <input type="checkbox" id="online games">
+                            <label for="online games">Online Games</label>
+                            <input type="checkbox" id="Reading Books">
+                            <label for="Reading Books">Reading Books</label>
+                        </td>
+                    </tr>
+                    <td>
+                        Date of Brth:
+                    </td>
+                    <td>
+                        <input type="date" name="date">
+                    </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button class="input clear" type="reset">Clear</button>
+                            <button class="input clear submit" type="submit">Submit</button>
+                        </td>
+                    </tr>
+                </table>
+
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

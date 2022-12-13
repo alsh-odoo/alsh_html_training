@@ -1,0 +1,70 @@
+
+.background {
+    background-image: url(natural-light-lens-flare-psd-gold-background-sun-ray-effect_53876-140441.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.img {
+    float: right;
+    height: 170px;
+    width: 170px;
+    background-attachment: fixed;
+    border: 3px solid black;
+}
+.div1 {
+    margin: auto;
+    width: 50%;
+    background-color: aliceblue;
+    border: 8px solid rgb(129, 197, 129);
+    border-style: groove;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+.div2 {
+    height: auto;
+    width: auto;
+    padding: 30px;
+    background-color: rgb(111, 150, 150);
+    border: 4px solid rgb(107, 102, 102);
+    border-radius: 25px;
+    border-collapse: separate;
+
+}
+
+.div3 {
+            background-color: rgb(136, 133, 139);
+            border: 4px solid rgb(159, 187, 170);
+        }
+
+input {
+    border-radius: 6px;
+    padding: 12px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    background-color: rgb(186, 190, 190);
+
+}
+
+#horizontal{
+    height:3px;
+    border-width:1px;
+    color:gray;
+    background-color:gray
+}
+.clear{
+    border-radius: 6px;
+    padding: 12px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    background-color: brown;
+    cursor: pointer;
+}
+.submit{
+    background-color: green;
+
+}
